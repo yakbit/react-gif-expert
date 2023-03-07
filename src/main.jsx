@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { GifExpertApp } from './GifExpertApp'
-import './styles.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { GifExpertApp } from "./GifExpertApp";
+import "./styles.css";
+import { initializeIcons } from "@fluentui/react/lib/Icons";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+initializeIcons();
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GifExpertApp />
   </React.StrictMode>
-)
+);

@@ -4,7 +4,6 @@ import { AddCategory, GifGrid } from "./components";
 import { styled } from "@mui/material/styles";
 import Chip from "@mui/material/Chip";
 import Paper from "@mui/material/Paper";
-import TagFacesIcon from "@mui/icons-material/TagFaces";
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState([]);
@@ -83,22 +82,6 @@ export const GifExpertApp = () => {
           );
         })}
       </Paper>
-
-      {/*  {categories.map((category) => {
-        return (
-          <h2 key={category}>
-            <li>
-              {category}
-              <button
-                onClick={() => onEliminarCategoria(category)}
-                style={{ marginLeft: 15 }}
-              >
-                Eliminar categoria
-              </button>
-            </li>
-          </h2>
-        );
-      })} */}
 
       {categories.map((category) => (
         <GifGrid key={category} category={category} />

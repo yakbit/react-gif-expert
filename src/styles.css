@@ -52,9 +52,6 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
-  /*   grid-template-rows:
-    400px 1fr
-    100px; */
   grid-auto-rows: minmax(100px, auto);
 }
 
@@ -66,7 +63,6 @@ h3 {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
-  /* height: 0%; */
   justify-content: center;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -126,12 +122,6 @@ h3 {
   color: white;
 }
 
-/* .glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
 .glitch span:first-child {
   animation: glitch 500ms infinite;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
@@ -179,12 +169,8 @@ h3 {
 
 .grid-gallery {
   display: grid;
-  /* grid-auto-rows: 300px; */
   gap: 1rem;
-  /* grid-auto-flow: row dense; */
   grid-template-columns: repeat(3, minmax(300px, 1fr));
-
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
 }
 
 @media all and (min-width: 320px) {

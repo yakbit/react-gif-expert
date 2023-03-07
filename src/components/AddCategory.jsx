@@ -51,16 +51,6 @@ export const AddCategory = ({ onNewCategory }) => {
             onClick: () => setInputValue(""),
           }}
         />
-
-        {/*  <input
-        style={{ maxWidth: 250 }}
-        type="text"
-        placeholder={"Buscar gifs"}
-        value={inputValue}
-        onChange={(e) => {
-          onCambio(e);
-        }}
-      /> */}
       </form>
       <Button
         startIcon={<SearchIcon />}

@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 import { GifItem } from "./GifItem";
-import Icon from "@mui/material/Icon";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-import { color } from "@mui/system";
 
 export const GifGrid = ({ category }) => {
   const [cantidadItems, setCantidadItems] = useState(2);

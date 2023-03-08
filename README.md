@@ -11,3 +11,5 @@ Funciona de siguiente manera:
 -Arriba se encuentra un campo de todas categorías activas actualmente y que se pueden eliminar si ya no se quiere mostrar esta categoría.
 
 Tecnologías usadas para el proyecto: React, JavaScript, CSS
+
+![](https://github.com/yakbit/react-gif-expert/blob/main/src/img/gifs/buscarGif.gif)

@@ -4,7 +4,7 @@ La aplicación desarrollada es un buscador de Gifs. Con ayuda de una API externa
 
 Tecnologías usadas para el proyecto: React, JavaScript, CSS.
 
-#Ver  [DEMO](https://buscador-de-gifs-react.netlify.app/ "Heading link")
+# Ver [DEMO](https://buscador-de-gifs-react.netlify.app/ "Heading link")
 
 
 ### Instrucciones de uso:
